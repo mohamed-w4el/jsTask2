@@ -13,7 +13,7 @@ function convertValue() {
             "You can't enter zero y 3asal.";
     } else {
         var result = currency * 60;
-        document.getElementById("output").innerHTML = result + " USD";
+        document.getElementById("output").innerHTML = result + " EGP";
     }
 
     return false;
