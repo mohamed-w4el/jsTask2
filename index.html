@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <!-- style css -->
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <!-- start currency home section -->
+
+        <div class="currencyHome">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-center my-4">Currency Converter</h3>
+                    </div>
+
+                    <div class="col-md-12">
+                        <form onsubmit="return convertValue();">
+                            <input
+                                type="text"
+                                name="currency"
+                                id="currency"
+                                class="form-control my-4"
+                                placeholder="Enter amount in EGP" />
+
+                            <input
+                                type="submit"
+                                value="Convert"
+                                class="btn btn-outline-success" />
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 id="output" class="mt-5"></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end currency home section -->
+
+        <!-- jquery js -->
+        <script src="js/jquery.slim.min.js"></script>
+        <!-- popper js -->
+        <script src="js/popper.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- main js -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
